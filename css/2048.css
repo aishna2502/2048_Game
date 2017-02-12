@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+#base{
+	/*background-color: grey;*/
+	display: flex;
+	flex-wrap: wrap;
+	height: 30em;
+	width: 30em;
+	/*#font-size: 12px;*/
+	/*border: 1px solid black;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.child{
+	background-color: #C0C0C0;
+	height: 7em;
+	width: 7em;
+	margin: 2px;
+	border-radius: 25px;
+	/*font-size: 12px;*/
+	/*align-items: center;*/
+	max-height: 7em;
+	display: flex;
+	text-align: center;
+	/*font-size: 3px;*/
+	justify-content: center;
+	flex-direction: column;
+}
+
+.two{
+	background-color: red;
+}
+
+.four{
+	background-color: blue;
+}
+
+.eight{
+	background-color: yellow;
+}
+
+.sixteen{
+	background-color: #FFFF99;
+}
+
+.thirtyTwo{
+	background-color: #FF7F50;
+}
+
+.sixtyFour{
+	background-color:red;
+}
